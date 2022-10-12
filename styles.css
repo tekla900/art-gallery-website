@@ -99,6 +99,8 @@ span {
 button {
     border: none;
     background-color: var(--almost-black);
+    background: linear-gradient(to left, var(--almost-black) 50%, var(--gold) 50%) right;
+    background-size: 200%;
     color: white;
     width: 260px;
     height: 72px;
@@ -108,9 +110,21 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
     /* justify-content: center; */
     padding-left: 16px;
+    transition: ease-out 0.4s;
 }
+
+button:hover {
+    background-position: left;
+}
+
+.icon:hover {
+    cursor: pointer;
+    filter: invert(57%) sepia(42%) saturate(363%) hue-rotate(332deg) brightness(145%) contrast(87%);
+}
+
 
 .socials {
     display: flex;
@@ -236,9 +250,6 @@ button {
 }
 
 @media (min-width: 1440px) {
-    body {
-        background-color: cadetblue;
-    }
     .first-child {
         display: flex;
     }
