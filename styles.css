@@ -125,6 +125,9 @@ button:hover {
     filter: invert(57%) sepia(42%) saturate(363%) hue-rotate(332deg) brightness(145%) contrast(87%);
 }
 
+#map {
+    display: none;
+}
 
 .socials {
     display: flex;

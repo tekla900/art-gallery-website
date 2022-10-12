@@ -26,12 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./preview.jpg)
+![](./screenshot.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/tekla900/art-gallery-website)
+- Live Site URL: [GitHub Pages](https://tekla900.github.io/art-gallery-website/)
 
 ## My process
 
@@ -46,7 +46,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [<picture> tag](https://www.w3schools.com/tags/tag_picture.asp) - This helped me for changing img srcs depending on the view port size.
+- [picture tag](https://www.w3schools.com/tags/tag_picture.asp) - This helped me for changing img srcs depending on the view port size.
 - [mix-blend-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode) - This helped me make main heading letters colored differently based on the background color
 - [filter](https://developer.mozilla.org/en-US/docs/Web/CSS/filter) - This helped me change colors of svg images with pure css
 - [Leaflet JS](https://leafletjs.com/reference.html) - LeafletJS helped me make interactive map with ease

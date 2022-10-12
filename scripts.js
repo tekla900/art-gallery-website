@@ -12,11 +12,12 @@ button.addEventListener('mouseout', () => {
 });
 
 button.addEventListener('click', () => {
-    location.href = "./location.html";
+    console.log('kkkk');
+    location.href = "location.html";
 });
 
 prevBtn.addEventListener('click', () => {
-    location.href = "./index.html";
+    location.href = "index.html";
 });
 
 
